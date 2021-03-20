@@ -17,4 +17,4 @@ jobs:
       run: vendor/bin/phpcs
 
     - name: CondingStandart
-      run: vendor/bin/phpstan src
+      run: vendor/bin/phpstan analyze src
