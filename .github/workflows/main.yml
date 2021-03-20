@@ -14,7 +14,7 @@ jobs:
       run: composer install --prefer-dist --no-progress --no-suggest
 
     - name: CondingStandart
-      run: ./vendor/bin/phpcs
+      run: phpcs
 
     - name: CondingStandart
-      run: ./vendor/bin/phpstan
+      run: phpstan
